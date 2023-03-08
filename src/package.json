@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "homepage": "https://arild-bm.github.io/notes_app",
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-mde": "11.5.0",
+    "showdown": "1.9.1",
+    "react-split": "2.0.13",
+    "nanoid": "3.1.28"
+  },
+  "devDependencies": {
+    "webpack": "^2.0",
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "webpack",
+    "watch": "webpack -w"
+  }
+}
